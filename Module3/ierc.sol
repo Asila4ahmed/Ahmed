@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
- //repeating the interface from file ERC20-2interface.sol
+ //code explained file ERC20-interface.sol
  interface IERC20{
      function totalSupply() external view returns(uint);
      function balanceOf(address acount) external view returns(uint);
