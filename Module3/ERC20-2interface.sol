@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
  interface IERC20{
+    //explaing the interface in file ierc.sol
      //to capture total supply
      function totalSupply() external view returns(uint);
 
